@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="32" height="32" viewBox="0 0 32 32">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_21378" data-name="Rectangle 21378" width="32" height="32" transform="translate(4875 -147)" fill="#fff" stroke="#707070" stroke-width="1"></rect>
+    </clipPath>
+  </defs>
+  <g id="Mask_Group_67" data-name="Mask Group 67" transform="translate(-4875 147)" clip-path="url(#clip-path)">
+    <g id="Group_28375" data-name="Group 28375" transform="translate(-3204 890)">
+      <path id="Path_25662" data-name="Path 25662" d="M207.241,126.881a1.5,1.5,0,0,0-1.495-1.381H188.254a1.5,1.5,0,0,0-1.5,1.381l-1.754,22a1.5,1.5,0,0,0,1.376,1.615c.04,0,.079,0,.119,0h21A1.5,1.5,0,0,0,209,149c0-.04,0-.079,0-.119Z" transform="translate(7898 -1155.5)" fill="#d23533"></path>
+      <g id="CIRCLE" transform="translate(8088 -1028)">
+        <path id="Path_25676" data-name="Path 25676" d="M192.5,130a1.5,1.5,0,1,1,1.5,1.5,1.5,1.5,0,0,1-1.5-1.5Z" transform="translate(-192.5 -128.5)" fill="#f1e8ff" stroke="rgba(0,0,0,0)" stroke-miterlimit="10" stroke-width="1"></path>
+      </g>
+      <g id="CIRCLE-2" data-name="CIRCLE" transform="translate(8099 -1028)">
+        <path id="Path_25677" data-name="Path 25677" d="M209,130a1.5,1.5,0,1,1,1.5,1.5A1.5,1.5,0,0,1,209,130Z" transform="translate(-209 -128.5)" fill="#f1e8ff" stroke="rgba(0,0,0,0)" stroke-miterlimit="10" stroke-width="1"></path>
+      </g>
+      <g id="Group_22071" data-name="Group 22071" transform="translate(8088.75 -1022.5)">
+        <g id="LWPOLYLINE" transform="translate(0 4.253)">
+          <path id="Path_25678" data-name="Path 25678" d="M194.125,143.129a.5.5,0,0,0,0,1h1.751a.5.5,0,0,0,0-1Z" transform="translate(-193.625 -143.129)" fill="#f1e8ff" stroke="rgba(0,0,0,0)" stroke-miterlimit="10" stroke-width="1"></path>
+        </g>
+        <g id="LWPOLYLINE-2" data-name="LWPOLYLINE" transform="translate(4.201)">
+          <path id="Path_25679" data-name="Path 25679" d="M199.926,137.25a.5.5,0,0,1,1,0V139a.5.5,0,0,1-1,0Z" transform="translate(-199.926 -136.75)" fill="#f1e8ff" stroke="rgba(0,0,0,0)" stroke-miterlimit="10" stroke-width="1"></path>
+        </g>
+        <g id="LWPOLYLINE-3" data-name="LWPOLYLINE" transform="translate(6.009 1.233)">
+          <path id="Path_25680" data-name="Path 25680" d="M204.731,139.454a.5.5,0,0,0-.708-.707l-1.238,1.238a.5.5,0,0,0,.707.707Z" transform="translate(-202.638 -138.6)" fill="#f1e8ff" stroke="rgba(0,0,0,0)" stroke-miterlimit="10" stroke-width="1"></path>
+        </g>
+        <g id="LWPOLYLINE-4" data-name="LWPOLYLINE" transform="translate(1.258 1.233)">
+          <path id="Path_25681" data-name="Path 25681" d="M195.659,139.454a.5.5,0,0,1,.707-.707l1.238,1.238a.5.5,0,0,1-.707.707Z" transform="translate(-195.512 -138.6)" fill="#f1e8ff" stroke="rgba(0,0,0,0)" stroke-miterlimit="10" stroke-width="1"></path>
+        </g>
+        <g id="LWPOLYLINE-5" data-name="LWPOLYLINE" transform="translate(1.258 6.033)">
+          <path id="Path_25682" data-name="Path 25682" d="M195.659,147.185a.5.5,0,0,0,.707.707l1.238-1.238a.5.5,0,0,0-.707-.708Z" transform="translate(-195.512 -145.8)" fill="#f1e8ff" stroke="rgba(0,0,0,0)" stroke-miterlimit="10" stroke-width="1"></path>
+        </g>
+        <path id="Path_25683" data-name="Path 25683" d="M207.948,148.95l-2.15-2.15.991-.541a.5.5,0,0,0-.05-.9l-6.517-2.663a.5.5,0,0,0-.652.652l2.663,6.517a.5.5,0,0,0,.9.05l.541-.991,2.15,2.15a.5.5,0,0,0,.708,0l1.415-1.415A.5.5,0,0,0,207.948,148.95ZM206.176,150l-2.267-2.268a.5.5,0,0,0-.793.114l-.357.654-1.813-4.437,4.437,1.813-.653.357a.5.5,0,0,0-.2.678.533.533,0,0,0,.085.115l2.268,2.267Z" transform="translate(-195.594 -138.719)" fill="#f1e8ff" stroke="rgba(0,0,0,0)" stroke-miterlimit="10" stroke-width="1"></path>
+      </g>
+      <path id="Path_25665" data-name="Path 25665" d="M204.75,121v1H206v-1a6,6,0,1,0-12,0v1h1.25v-1a4.75,4.75,0,1,1,9.5,0Z" transform="translate(7895 -1152)" fill="#d23533"></path>
+    </g>
+  </g>
+</svg>
