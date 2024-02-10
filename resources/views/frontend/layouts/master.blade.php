@@ -543,6 +543,42 @@
                             </li>
                         </ul>
 
+                        @auth
+                        <div class="d-none d-xl-block ml-auto mr-0">
+                           
+                            <span class="d-flex align-items-center nav-user-info ml-3">
+                                <!-- Image -->
+                            <span class="size-40px rounded-circle overflow-hidden border border-transparent nav-user-img">
+                                <img src="https://demo.activeitzone.com/ecommerce/public/uploads/all/5XVyeLGw5zRpb63bqgn2dtIOjCktLgBltNSQIPG3.webp" class="img-fit h-100" alt="Avatar" onerror="this.onerror=null;this.src='https://demo.activeitzone.com/ecommerce/public/assets/img/avatar-place.png';">
+                            </span>
+                            <!-- Name -->
+                                <h4 class="h5 fs-14 fw-700 text-dark ml-2 mb-0">{{Auth::user()->name}}</h4>
+                                
+                            </span>
+                        </div>
+                        @else
+                        <div class="d-none d-xl-block ml-auto mr-0">
+                            <!--Login & Registration -->
+                            <span class="d-flex align-items-center nav-user-info ml-3">
+                                <!-- Image -->
+                                <span
+                                    class="size-40px rounded-circle overflow-hidden border d-flex align-items-center justify-content-center nav-user-img">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="19.902" height="20.012"
+                                        viewBox="0 0 19.902 20.012">
+                                        <path id="fe2df171891038b33e9624c27e96e367"
+                                            d="M15.71,12.71a6,6,0,1,0-7.42,0,10,10,0,0,0-6.22,8.18,1.006,1.006,0,1,0,2,.22,8,8,0,0,1,15.9,0,1,1,0,0,0,1,.89h.11a1,1,0,0,0,.88-1.1,10,10,0,0,0-6.25-8.19ZM12,12a4,4,0,1,1,4-4A4,4,0,0,1,12,12Z"
+                                            transform="translate(-2.064 -1.995)" fill="#91919b"></path>
+                                    </svg>
+                                </span>
+                                <a href="{{ route('users.login') }}"
+                                    class="text-reset opacity-60 hov-opacity-100 hov-text-primary fs-12 d-inline-block border-right border-soft-light border-width-2 pr-2 ml-3">Login</a>
+                                <a href="{{ route('users.registration') }}"
+                                    class="text-reset opacity-60 hov-opacity-100 hov-text-primary fs-12 d-inline-block py-2 pl-2">Registration</a>
+                            </span>
+                        </div>
+                            
+                        @endauth
+
                         <div class="d-none d-xl-block ml-auto mr-0">
                             <!--Login & Registration -->
                             <span class="d-flex align-items-center nav-user-info ml-3">
