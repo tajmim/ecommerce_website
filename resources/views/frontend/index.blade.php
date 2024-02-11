@@ -667,8 +667,12 @@
                 <div class="aiz-carousel sm-gutters-16 arrow-none slick-initialized slick-slider" data-items="6" data-xl-items="5" data-lg-items="4" data-md-items="3" data-sm-items="2" data-xs-items="2" data-arrows="true" data-infinite="false"><button type="button" class="slick-prev slick-arrow slick-disabled" aria-disabled="true" style="display: inline-block;"><i class="las la-angle-left"></i></button>
                     <div class="slick-list draggable">
                         <div class="slick-track" style="opacity: 1; width: 2748px; transform: translate3d(0px, 0px, 0px);">
+                            @foreach ($featured_products as $featured_product)
+                                        
+                                    
                             <div class="slick-slide slick-current slick-active" data-slick-index="0" aria-hidden="false" style="width: 229px;">
                                 <div>
+                                    
                                     <div class="carousel-box position-relative px-0 has-transition hov-animate-outline border-right border-top border-bottom  border-left " style="width: 100%; display: inline-block;">
                                         <div class="px-3">
                                             <div class="aiz-card-box h-auto bg-white py-3 hov-scale-img">
@@ -707,7 +711,10 @@
                                                 <div class="p-2 p-md-3 text-left">
                                                     <!-- Product name -->
                                                     <h3 class="fw-400 fs-13 text-truncate-2 lh-1-4 mb-0 h-35px text-center">
-                                                        <a href="product/like-dreams-large-sherpa-tote-bag-inner-pocket-vegan-leather-large-tote-hand-bags-for-women" class="d-block text-reset hov-text-primary" title="Like Dreams Large Sherpa Tote Bag, Inner Pocket Vegan Leather, Large Tote Hand bags for Women" tabindex="0">Like Dreams Large Sherpa Tote Bag, Inner Pocket Vegan Leather, Large Tote Hand bags for Women</a>
+                                                        <a href="product/like-dreams-large-sherpa-tote-bag-inner-pocket-vegan-leather-large-tote-hand-bags-for-women"
+                                                         class="d-block text-reset hov-text-primary" 
+                                                         title="Like Dreams Large Sherpa Tote Bag, Inner Pocket Vegan Leather, Large Tote Hand bags for Women" 
+                                                         tabindex="0">{{$featured_product->name}}</a>
                                                     </h3>
                                                     <div class="fs-14 d-flex justify-content-center mt-3">
                                                         <!-- Previous price -->
@@ -722,7 +729,10 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="slick-slide slick-active" data-slick-index="1" aria-hidden="false" style="width: 229px;">
+                            @endforeach
+
+
+                            {{-- <div class="slick-slide slick-active" data-slick-index="1" aria-hidden="false" style="width: 229px;">
                                 <div>
                                     <div class="carousel-box position-relative px-0 has-transition hov-animate-outline border-right border-top border-bottom " style="width: 100%; display: inline-block;">
                                         <div class="px-3">
@@ -1364,7 +1374,7 @@
                                         </div>
                                     </div>
                                 </div>
-                            </div>
+                            </div> --}}
                         </div>
                     </div><button type="button" class="slick-next slick-arrow" style="display: inline-block;" aria-disabled="false"><i class="las la-angle-right"></i></button>
                 </div>

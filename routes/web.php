@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\HomeController;
 use App\Http\Controllers\UserController;
 
 
@@ -15,9 +16,9 @@ use App\Http\Controllers\UserController;
 |
 */
 
-Route::get('/', function () {
-    return view('frontend.index');
-});
+
+Route::get('/', [HomeController::class, 'index'])->name('index');
+
 Route::get('/users/login', function () {
     return view('frontend.login');
 })->name('users.login');
