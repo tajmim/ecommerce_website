@@ -66,7 +66,7 @@
                             <div class="col-auto fw-600">Remove</div>
                         </div>
                         <!-- Cart Items -->
-                        <ul class="list-group list-group-flush">
+                        {{-- <ul class="list-group list-group-flush">
                                                                                                                         <li class="list-group-item px-0">
                                     <div class="row gutters-5 align-items-center">
                                         <!-- Quantity -->
@@ -156,7 +156,7 @@
                                     </div>
                                 </li>
                                                     </ul>
-                    </div>
+                    </div> --}}
 
                     <!-- Subtotal -->
                     <div class="px-0 py-2 mb-4 border-top d-flex justify-content-between">
